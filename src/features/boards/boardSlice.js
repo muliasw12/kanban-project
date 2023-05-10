@@ -204,7 +204,7 @@ export const boardsSlice = createSlice({
       const task = sourceColumn.tasks[source.index];
       sourceColumn.tasks.splice(source.index, 1);
       destinationColumn.tasks.splice(destination.index, 0, task);
-      const intDestId = parseInt(destination.droppableId);
+      //const intDestId = parseInt(destination.droppableId);
       task.columnID = destinationColumn.id;
       // Iterate through subtasks and change the columnID
       task.subTasks.forEach((s) => (s.columnID = destinationColumn.id));

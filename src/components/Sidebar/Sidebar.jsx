@@ -1,11 +1,10 @@
 import React from "react";
 import "./sidebar.scss";
 // Redux
-import { setTheme, toggleTheme } from "../../features/theme/themeSlice";
+import { toggleTheme } from "../../features/theme/themeSlice";
 import { useDispatch, useSelector } from "react-redux";
-import boardSlice, {
+import {
   dragAndDropBoard,
-  findActiveBoard,
   setActiveBoard,
 } from "../../features/boards/boardSlice";
 import { openModal } from "../../features/global/modalSlice";
@@ -14,7 +13,7 @@ import { openModal } from "../../features/global/modalSlice";
 import { AnimatePresence, motion } from "framer-motion";
 import Switch from "../Switch/Switch";
 import { useMediaQuery } from "react-responsive";
-import { NavLink } from "react-router-dom";
+
 
 // Icons
 import { ReactComponent as BoardIcon } from "../../assets/Icons/icon-board.svg";
@@ -25,13 +24,12 @@ import { ReactComponent as Sun } from "../../assets/Icons/icon-light-theme.svg";
 import { ReactComponent as Moon } from "../../assets/Icons/icon-dark-theme.svg";
 
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import sidebarSlice, {
+import {
   openSidebar,
   closeSidebar,
-  isSidebarOpen,
 } from "../../features/global/sidebarSlice";
 const Sidebar = () => {
-  const isMobileMax = useMediaQuery({ maxWidth: 650 });
+  //const isMobileMax = useMediaQuery({ maxWidth: 650 });
   const isMobileMin = useMediaQuery({ minWidth: 651 });
 
   const dispatch = useDispatch();

@@ -11,14 +11,14 @@ import {
   closeAllModals,
   openDeleteTaskModal,
 } from "../../../features/global/modalSlice";
-import Backdrop from "../Backdrop/Backdrop";
+
 import Subtask from "../../Task/Subtask";
 
 import "../../Extra/DropdownSettings.scss";
 
 import { useOutsideClick } from "../../../hooks/useOutsideClick";
 
-import { motion } from "framer-motion";
+
 import DropdownStatus from "../../Extra/DropdownStatus";
 
 const ViewTaskModal = ({ handleClose }) => {

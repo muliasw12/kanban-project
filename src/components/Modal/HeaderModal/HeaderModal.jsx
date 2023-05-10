@@ -13,7 +13,7 @@ import { dropIn } from "../../../utils/framer-animations";
 import { ReactComponent as BoardIcon } from "../../../assets/Icons/icon-board.svg";
 import { ReactComponent as Sun } from "../../../assets/Icons/icon-light-theme.svg";
 import { ReactComponent as Moon } from "../../../assets/Icons/icon-dark-theme.svg";
-import { NavLink } from "react-router-dom";
+
 
 const HeaderModal = ({ handleClose }) => {
   const dispatch = useDispatch();

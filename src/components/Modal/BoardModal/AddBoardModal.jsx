@@ -149,7 +149,7 @@ const AddBoardModal = () => {
               addBoardSubmit();
             }}
           >
-            Create New Bord
+            Create New Board
           </button>
         </motion.div>
       </form>
