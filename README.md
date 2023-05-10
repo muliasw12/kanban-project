@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Clytax/fem-kanban)
+- Solution URL: [Github](https://github.com/muliasw12/kanban-project)
 - Live Site URL: [Vercel](https://kanban-board-psi.vercel.app)
 
 ## My process
