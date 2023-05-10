@@ -74,4 +74,4 @@ I keep learning new things everyday but I want t ofocus on creating semantic HTM
 
 ## Author
 
-- Mulia Sujiastuti Wahyono - [Clytax](https://github.com/muliasw12)
+- Mulia Sujiastuti Wahyono - [muliasw12](https://github.com/muliasw12)
